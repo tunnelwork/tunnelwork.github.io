@@ -25,6 +25,8 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies and Build
         run: cd ./hexo_io && npm install && npm run build
+      - name: Adding CNAME
+        run: cp -r ./CNAME ./hexo_io/public/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
