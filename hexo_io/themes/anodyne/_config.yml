@@ -4,17 +4,16 @@ logo_image_source: /images/logo.svg
 
 # Index Page
 index_banner_text: Uncensored Internet Access is a basic human right.
-index_banner_text_secondary: Uncensored, Neutral, Secure
+index_banner_text_secondary: Uncensored, Neutral, Secured
 index_font_awesome_icon_css: fa fa-lock
 
 # Header
 menu:
   Home: /
-  Blog: /archives
-  Reports: /reports.html
+  News: /news/
   # Categories: /categories
-  About: /about.html
-  Contact: /contact.html
+  About: /about/
+  Contact: /contact/
 
 # Post
 default_post_title: 404 TITLE NOT FOUND
@@ -25,8 +24,8 @@ archive_date_format: MM/DD/YYYY
 archive_font_awesome_icon_css: fa-folder-open
 
 # About Widget
-about_widget_avatar_url: /images/avatar.jpg
-about_widget_text: "Wow."
+about_widget_avatar_url: /images/avatar.svg
+about_widget_text: "Your humble private Internet security advisor since 2017"
 
 
 # Comments.
@@ -39,24 +38,14 @@ google_analytics:
 
 # Social Media Platforms
 social_platforms:
-  - url: https://twitter.com/?lang=en
+  - url: https://twitter.com/tunnelwork
     fa_icon: fa-twitter
-  - url: https://www.facebook.com/
-    fa_icon: fa-facebook
-  - url: https://dribbble.com/
-    fa_icon: fa-dribbble 
-  - url: https://github.com/klugjo/hexo-theme-anodyne
+  - url: https://github.com/TunnelWork
     fa_icon: fa-github
-  - url: https://plus.google.com/
-    fa_icon: fa-google-plus
-  - url: https://www.behance.net/
-    fa_icon: fa-behance
-  - url: https://500px.com/
-    fa_icon: fa-500px
-  - url: mailto:test@example.com
+  - url: https://t.me/tunnelwork
+    fa_icon: fa-telegram
+  - url: mailto:contact@tunnel.work
     fa_icon: fa-envelope
-  - url: /#
-    fa_icon: fa-rss
 
 # Footer about
 footer_about: "@Tunnel.Work All right reserved | Design & Hexo <a class=\"link dim white\" href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
